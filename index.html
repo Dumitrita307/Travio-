@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Locuri de Vizitat</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f4fdfb;
+      color: #2b4a4a;
+    }
+
+    header {
+      background: linear-gradient(135deg, #c7eede, #cfe9f7);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h2 {
+      margin-top: 0;
+      color: #3a7f7f;
+    }
+
+    .card-content p {
+      font-size: 0.95rem;
+    }
+
+    .buttons {
+      margin-top: 15px;
+      display: flex;
+      gap: 10px;
+    }
+
+    button {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      background-color: #bfe7d6;
+      color: #1f4f4f;
+      transition: background-color 0.3s ease;
+    }
+
+    button.secondary {
+      background-color: #cfe3f7;
+    }
+
+    button:hover {
+      background-color: #a9dcc7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #eaf7f4;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Locuri de Vizitat</h1>
+    <p>Descoperă destinații frumoase în culori pastelate</p>
+  </header>
+
+  <section class="container">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Munți" />
+      <div class="card-content">
+        <h2>Munții Alpi</h2>
+        <p>Peisaje spectaculoase, aer curat și trasee perfecte pentru relaxare.</p>
+        <div class="buttons">
+          <button>Află mai mult</button>
+          <button class="secondary">Galerie</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Plajă" />
+      <div class="card-content">
+        <h2>Plaje Tropicale</h2>
+        <p>Apă limpede, nisip fin și liniște totală în nuanțe de albastru pastel.</p>
+        <div class="buttons">
+          <button>Află mai mult</button>
+          <button class="secondary">Galerie</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b" alt="Oraș" />
+      <div class="card-content">
+        <h2>Orașe Istorice</h2>
+        <p>Arhitectură, cultură și plimbări relaxante prin centre vechi.</p>
+        <div class="buttons">
+          <button>Află mai mult</button>
+          <button class="secondary">Galerie</button>
+        </div>
+      </div>
+    </div>
+
+     <div class="card">
+      <img src="https://images.unsplash.com/photo-1586810724476-c294fb7ac01b?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Țara" />
+      <div class="card-content">
+        <h2>Țări Fabuloase</h2>
+        <p> Tururi, lolcuri foarte populate, monumente, tradiții.</p>
+        <div class="buttons">
+          <button>Află mai mult</button>
+          <button class="secondary">Galerie</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 • Site demo – Locuri de Vizitat
+  </footer>
+
+</body>
+</html>
