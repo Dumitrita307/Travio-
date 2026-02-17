@@ -1,0 +1,33 @@
+{
+  "title": "Locuri de Vizitat",
+  "cards": [
+    {
+      "title": "Munții Alpi",
+      "description": "Peisaje spectaculoase, aer curat și trasee perfecte pentru relaxare.",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+      "btn1": "Află mai mult",
+      "btn2": "Galerie"
+    },
+    {
+      "title": "Plaje Tropicale",
+      "description": "Apă limpede, nisip fin și liniște totală în nuanțe de albastru pastel.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "btn1": "Detalii",
+      "btn2": "Vezi poze"
+    },
+    {
+      "title": "Orașe Istorice",
+      "description": "Arhitectură, cultură și plimbări relaxante prin centre vechi.",
+      "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b",
+      "btn1": "Explorează",
+      "btn2": "Galerie"
+    },
+    {
+      "title": "Țări Fabuloase",
+      "description": "Tururi, locuri foarte populate, monumente și tradiții.",
+      "image": "https://images.unsplash.com/photo-1586810724476-c294fb7ac01b?q=80&w=1036&auto=format&fit=crop",
+      "btn1": "Descoperă",
+      "btn2": "Imagini"
+    }
+  ]
+}

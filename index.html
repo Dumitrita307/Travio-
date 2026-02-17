@@ -4,118 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Locuri de Vizitat</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, sans-serif;
-      background-color: #f4fdfb;
-      color: #2b4a4a;
-    }
-
-    header {
-      background: linear-gradient(135deg, #c7eede, #cfe9f7);
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-
-    header p {
-      font-size: 1.1rem;
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: 40px auto;
-      padding: 0 20px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 30px;
-    }
-
-    .card {
-      background-color: #ffffff;
-      border-radius: 16px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-      overflow: hidden;
-      transition: transform 0.3s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    .card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
-
-    .card-content {
-      padding: 20px;
-    }
-
-    .card-content h2 {
-      margin-top: 0;
-      color: #3a7f7f;
-    }
-
-    .card-content p {
-      font-size: 0.95rem;
-    }
-
-    .buttons {
-      margin-top: 15px;
-      display: flex;
-      gap: 10px;
-    }
-
-    button {
-      padding: 10px 16px;
-      border: none;
-      border-radius: 20px;
-      cursor: pointer;
-      font-size: 0.9rem;
-      background-color: #bfe7d6;
-      color: #1f4f4f;
-      transition: background-color 0.3s ease;
-    }
-
-    button.secondary {
-      background-color: #cfe3f7;
-    }
-
-    button:hover {
-      background-color: #a9dcc7;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px;
-      background-color: #eaf7f4;
-      font-size: 0.9rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
   <header>
-    <h1>Locuri de Vizitat</h1>
+    <h1 id="mainTitle"></h1>
     <p>Descoperă destinații frumoase în culori pastelate</p>
   </header>
 
-  <section class="container"
-    id="cardsContainer">
-   
+  <section class="container" id="cardsContainer">
+    
   </section>
 
   <footer>
     © 2026 • Site demo – Locuri de Vizitat
   </footer>
 
-  <script  src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
